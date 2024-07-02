@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Monoton&display=swap');
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'livvic', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f6f8fa;
     color: #24292e;
     line-height: 1.6;
@@ -12,6 +14,7 @@ header {
     color: #fff;
     padding: 1.5rem;
     text-align: center;
+    font-family: monoton;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,6 +42,7 @@ section h2 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     color: #1a3655;
+    text-align: center;
 }
 
 section p {
@@ -47,9 +51,13 @@ section p {
     color: #586069;
 }
 
+span {
+    color: #1a3655;
+    font-weight: bold;
+}
+
 img {
     max-width: 100%;
-    height: auto;
     display: block;
     margin: 1rem auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -62,6 +70,7 @@ a {
     text-decoration: underline;
     font-weight: bold;
     transition: color 0.2s;
+    text-align: center;
 }
 
 a:hover {
